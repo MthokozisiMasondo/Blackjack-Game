@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background: rgb(1, 41, 1);
+    background-image: url(https://wallpaperaccess.com/full/1765802.jpg);
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: gold;
+    font-size: 80px;
+}
+
+p {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+button {
+    padding: 20px 70px;
+    font-size: 40px;
+    font-weight: bold;
+    color: green;
+    background-color: yellow;
+    border-radius: 10px;
+    transition: all 500ms ease-in-out;
+}
+
+button:hover {
+    background-color: green;
+    color: yellow;
+}
