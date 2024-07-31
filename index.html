@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
     <title>BlackJack ♠️♥️♦️♣️</title>
 </head>
 
@@ -12,17 +11,17 @@
 
         <h1>Blackjack</h1>
         <p id="message-el"><i>Want to play a round?</i></p>
-        <p>Cards:</p>
-        <p>Sum:</p>
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
 
         <div>
             <button onclick="startGame()">START GAME</button>
-            <button>NEW CARD</button>
+            <button onclick="newCard()">NEW CARD</button>
         </div>
 
 
 
-
+        <script src="index.js"></script>
 
 
     </body>
